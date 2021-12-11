@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+   
+}
+
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(https://st2.depositphotos.com/3889193/7641/i/600/depositphotos_76413377-stock-photo-hipster-desktop-with-male-hands.jpg); */
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218batch4-aum-08_1_1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=1d0b1b94246bbe9c3f5535df46996839);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+}
+.inner-div{
+ text-align: center;
+
+}
+h1{
+    color: darkslategray;
+    font-weight: 1000;
+    text-shadow: 1px 0px 5px;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    color: lightgreen;
+}
+
+#typearea{
+ background-color: rgb(255, 255, 255); 
+font-size: 25px;
+box-shadow: 1px 2px 10px;
+outline: none;
+cursor: pointer;
+border-radius: 5px;
+padding: 10px;
+box-shadow: 0px 0px 15px lightgreen;
+
+}
+#typearea::placeholder{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.431);
+}
+#btn{
+    padding: 10px 30px;
+    margin-top: 5px;
+    font-size: 25px;
+    background-color:lightgreen;
+    border-radius: 10px;
+}
+#result{
+    margin-top: 10px;
+    /* background-color: rgba(0, 0, 0, 0.589);   */
+    color:lightcoral    ;
+ 
+
+}
+#typingcontent{
+    font-size: 2rem;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.548);
+    width: 90vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px lightcoral;
+
+
+}
